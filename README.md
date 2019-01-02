@@ -1,4 +1,4 @@
-Linux dotfiles.
+# Linux dotfiles
 
 - `.bash_profile` is set to be sourced from `~/.bashrc`
 
