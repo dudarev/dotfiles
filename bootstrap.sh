@@ -10,10 +10,12 @@ fi
 # https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-if [ ! -f "$HOME/.bash_pofile" ] ; then
+bash_profile="$HOME/.bash_profile"
+if [ -e $bash_profile ] ; then
     echo "~/.bash_profile already exists, not linking to it."
     echo "Examine and remove it if need to update."
 else
-    ln -s $DIR/.bash_profile $HOME/.bash_profile
+    ln -s $DIR/.bash_profile $bash_profile
     echo "Linked .bash_profile from repo to ~/.bash_profile"
 fi
+
