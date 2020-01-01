@@ -14,3 +14,6 @@ export HISTFILESIZE=100000
 shopt -u promptvars
 PROMPT_COMMAND="$PROMPT_COMMAND; history -a; history -n"
 # for future expansion see https://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows
+
+# needed in particular for https://github.com/dudarev/dotvim
+export PATH="$HOME/bin:$PATH"
