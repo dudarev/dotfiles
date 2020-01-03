@@ -17,3 +17,7 @@ PROMPT_COMMAND="$PROMPT_COMMAND; history -a; history -n"
 
 # needed in particular for https://github.com/dudarev/dotvim
 export PATH="$HOME/bin:$PATH"
+
+# https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits
+export VISUAL=vim
+export EDITOR="$VISUAL"
