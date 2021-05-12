@@ -10,4 +10,4 @@ cd dotfiles
 ./bootstrap.sh
 ```
 
-`.zshrc` is still work in progress and is not included in `bootstrap.sh`.
+`.zshrc` is still work in progress and is not included in `bootstrap.sh`. Copy it manually.
