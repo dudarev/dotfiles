@@ -21,3 +21,9 @@ export PATH="$HOME/bin:$PATH"
 # https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# UTF-8 support
+# https://unix.stackexchange.com/questions/303712/how-can-i-enable-utf-8-support-in-the-linux-console
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
