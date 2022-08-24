@@ -19,7 +19,7 @@ PROMPT_COMMAND="$PROMPT_COMMAND; history -a; history -n"
 export PATH="$HOME/bin:$PATH"
 
 # https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 # UTF-8 support
